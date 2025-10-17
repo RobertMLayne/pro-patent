@@ -1,0 +1,31 @@
+**********************
+PowerShell transcript start
+Start time: 20250915040717
+Username: RML-XPS8960-WS\WorkstationAdmin
+RunAs User: RML-XPS8960-WS\WorkstationAdmin
+Configuration Name: 
+Machine: RML-XPS8960-WS (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.3.0_x64__8wekyb3d8bbwe\pwsh.dll -NoLogo -NoProfile -Command 
+  Start-Transcript -Path "C:\Users\WorkstationAdmin\OneDrive\Desktop\step02_build_onedrive.txt" -Force;
+  try {
+    & "C:\Users\WorkstationAdmin\OneDrive\Desktop\02_build_icloud_mapping.ps1" `
+      -Root "C:\Users\WorkstationAdmin\OneDrive" `
+      -InCsv "C:\Users\WorkstationAdmin\OneDrive\Desktop\onedrive_root_structure.csv" `
+      -OutCsv "C:\Users\WorkstationAdmin\OneDrive\Desktop\onedrive_root_mapping.csv"
+  } finally { Stop-Transcript }
+Process ID: 40504
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\WorkstationAdmin\OneDrive\Desktop\step02_build_onedrive.txt
+**********************
+PowerShell transcript end
+End time: 20250915040732
+**********************

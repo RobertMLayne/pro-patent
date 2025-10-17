@@ -1,0 +1,107 @@
+**********************
+PowerShell transcript start
+Start time: 20250913162537
+Username: RML-XPS8960-WS\WorkstationAdmin
+RunAs User: RML-XPS8960-WS\WorkstationAdmin
+Configuration Name: 
+Machine: RML-XPS8960-WS (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.3.0_x64__8wekyb3d8bbwe\pwsh.dll -NoLogo -NoProfile -Command Continue='SilentlyContinue'; Start-Transcript -Path 'C:\Users\WorkstationAdmin\OneDrive\Desktop\apply_icloud_root_dirs.txt' -Force; try { & 'C:\Users\WorkstationAdmin\OneDrive\Desktop\04_apply_mapping.ps1' } finally { Stop-Transcript }
+Process ID: 49220
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\WorkstationAdmin\OneDrive\Desktop\apply_icloud_root_dirs.txt
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Trash\Python 3".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\F3LWYJ7GM7~com~apple~mobilegarageband\Trash".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\git\refs\tags".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\git\refs\heads".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\git\objects\pack".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\git\objects\info".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\git\fsmonitor--daemon\cookies".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\.git\refs".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\.git\objects".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\.git\info".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\.git\hooks".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Python\.git\fsmonitor--daemon".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Maven\Projects\usptocommonapi\target\test-classes\com\patentv9\usptocommonapi".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Maven\Projects\usptocommonapi\target\generated-sources\jaxb\META-INF\JAXB".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Maven\Projects\usptocommonapi\src\test\java\com\patentv9\usptocommonapi".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Maven\Projects\usptocommonapi\.vscode".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Programming\Gradle\Projects".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Office Exam Course\2023\Course\Study Guide\M.P.E.P. Chapter 800 — Restriction in Applications Filed Under U.S.C. 111; Double Patenting".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Office Exam Course\2023\Course\Study Guide\M.P.E.P. Chapter 700 & Amendment and Prosecution Review\Amendment and Prosectuion Review — How It All Fits Together".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Office Exam Course\2023\Course\Study Guide\M.P.E.P. Chapter 400 & M.P.E.P. Patent Office Rules Part 11\M.P.E.P. Chapter 400 — Representative of Inventor and Owner".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Office Exam Course\2023\Course\Study Guide\M.P.E.P. Chapter 2300 — Interferences [Pre-AIA Filings and Qualifying Post-AIA Filings Only!]".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Office Exam Course\2023\Course\Study Guide\M.P.E.P. Chapter 1100 — Statutory Invention Registration (SIR) [Pre-AIA]; Pre-Grant Publication and Third-Party Preissuance Submissions".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Office Exam Course\2023\Course\Study Guide\M.P.E.P. Chapter 1000 — Matters Decided by Various Patent and Trademark Office Officials".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Fundamentals Bootcamp - An Introduction to Patent Drafting, Prosecution, and Litigation\2022\Sections".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Library\IP Law\Patent Eligibility, Prior Art, Obviousness and Disclosure - Current Trends in Sections 101, 102, 103 and 112\2023\Sections".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Legal\Custody & Divorce\Divorce\Rachele\Email Attachments\Maureen Beery\RFPD 26-2".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11369\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11351\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11293\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11222\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11222\070816-03240\Disclosure Materials from REGN\Edited Disclosure Materials".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11184\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11137\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11105\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11105\070816-02961 (1)\Disclosure Materials from REGN\Edited Disclosure Materials".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 11105\070816-02960\Disclosure Materials from REGN".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10973\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10973\070816-02682\Disclosure Materials from REGN\FFA Measurement Paper".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10972\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10871\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10767\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10759\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10744\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10656\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10648\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10608\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10580\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10564)\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10562\Emails".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\QPI\Unannotated References\Mutnury, B. et al. (2010)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US8950860 Family\US9829722B2\Patent Citations\US20080218687A1".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US8950860 Family\US9829722B2\Patent Citations\Family to Family Citations".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US8950860 Family\US8950860B2\Patent Citations\Family to Family Citations".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\USRE47006E\Patent Citations\Family to Family Citations".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\USRE47006E\Non-Patent Citations\Wallman, Jos~c7159d".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\USRE45147E1\Patent Citations\Family to Family Citations".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\USRE45147E1\Non-Patent Citations\Wallman, Jos~c7159d".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\USRE43851E1\Patent Citations\Family to Family Citations".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\USRE43851E1\Non-Patent Citations\Wallman, Jos~c7159d".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\US7506983B2\Patent Citations\Family to Family Citations".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\950102 I&M_CDV-Client Development\Matters\7001 Miscellaneous\US7506983 Family\US7506983B2\Non-Patent Citations\Wallman, Jos~c7159d".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163861 Cornell Research Foundation Inc\163861 Cornell Research Foundation Inc. EndNote Library.Data\PDF\2621013552".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163861 Cornell Research Foundation Inc\163861 Cornell Research Foundation Inc. EndNote Library.Data\PDF\1761984963".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163861 Cornell Research Foundation Inc\163861 Cornell Research Foundation Inc. EndNote Library.Data\PDF\1352570902".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163861 Cornell Research Foundation Inc\163861 Cornell Research Foundation Inc. EndNote Library.Data\PDF\0750223194".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163693 Fortress Investment Group\163693 Fortress Investment Group EndNote Library.Data\PDF\1221236346".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163693 Fortress Investment Group\163693 Fortress Investment Group EndNote Library.Data\PDF\0751648605".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Speed Shift\Introducing 6th Generation Intel® Core™, Intel's Best Processor Ever _ Intel Newsroom_files".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Speed Shift\Examining Intel's New Speed Shift Tech on Skylake_ More Responsive Processors_files".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Quick Path Interconnect (QPI)\Unannotated References\Mutnury, B. et al. (2010)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Quick Path Interconnect (QPI)\Unannotated References\Hitchcock, R. (2011)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Quick Path Interconnect (QPI)\Unannotated References\Goodman, J. (2009)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Quick Path Interconnect (QPI)\Maddox, R., Singh, G., and Safranek, R. (2009)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Fully Integrated Voltage Regulator (FIVR)\Rotem, E., et al. (2004)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Fully Integrated Voltage Regulator (FIVR)\Müller, Bellaredj et al. (2019)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Fully Integrated Voltage Regulator (FIVR)\Krishnamurthy, H. K., et al. (2014)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Fully Integrated Voltage Regulator (FIVR)\DVFS\Rotem, E., et al. (2004)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Fully Integrated Voltage Regulator (FIVR)\DVFS\Müller, Bellaredj et al. (2019)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Fully Integrated Voltage Regulator (FIVR)\DVFS\Krishnamurthy, H. K., et al. (2014)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Irell & Manella LLP\Work\163647 VLSI Technology LLC\Matters\0019 Austin\Fully Integrated Voltage Regulator (FIVR)\DVFS\Burton, Schrom et al. (2014)".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Documents\Coursework\University of Toledo\Cellular Electrophysiology\Neuron Project 2\neuron\umac\.libs".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\Desktop".
+What if: Performing the operation "Remove Directory" on target "C:\Users\WorkstationAdmin\iCloudDrive\.Trash".
+**********************
+PowerShell transcript end
+End time: 20250913162552
+**********************

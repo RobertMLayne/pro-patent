@@ -1,0 +1,16 @@
+Pattern,Replacement
+\bDepartment\b,Dept
+\bApplication\b,Appl
+\bCorrespondence\b,Corr
+\bProsecution\b,Pros
+\bResponse\b,Resp
+\bDisclosure Materials from REGN\b,Disclosure-REGN
+\bNon-Patent Citations\b,NPC
+\bPatent Citations\b,PC
+\bIntroduction\b,Intro
+\bGeneration\b,Gen
+\bInvestigation\b,Inv
+\bHydrophobic Interaction Chromatography\b,HIC
+\bChromatography\b,Chrom
+\bElectrophoresis\b,Eph
+\bM\.P\.E\.P\.\b,MPEP

@@ -1,0 +1,20 @@
+**********************
+PowerShell transcript start
+Start time: 20250913162108
+Username: RML-XPS8960-WS\WorkstationAdmin
+RunAs User: RML-XPS8960-WS\WorkstationAdmin
+Configuration Name: 
+Machine: RML-XPS8960-WS (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.3.0_x64__8wekyb3d8bbwe\pwsh.dll -noninteractive -NoLogo -NoProfile -encodedCommand CgAgACAAJABQAHIAbwBnAHIAZQBzAHMAUAByAGUAZgBlAHIAZQBuAGMAZQA9ACcAUwBpAGwAZQBuAHQAbAB5AEMAbwBuAHQAaQBuAHUAZQAnAAoAIAAgAFMAdABhAHIAdAAtAFQAcgBhAG4AcwBjAHIAaQBwAHQAIAAtAFAAYQB0AGgAIAAnAEMAOgBcAFUAcwBlAHIAcwBcAFcAbwByAGsAcwB0AGEAdABpAG8AbgBBAGQAbQBpAG4AXABPAG4AZQBEAHIAaQB2AGUAXABEAGUAcwBrAHQAbwBwAFwAYQBwAHAAbAB5AF8AaQBjAGwAbwB1AGQAXwByAG8AbwB0AF8AZgBpAGwAZQBzAC4AdAB4AHQAJwAgAC0ARgBvAHIAYwBlAAoAIAAgAHQAcgB5ACAAewAgACYAIAAnAEMAOgBcAFUAcwBlAHIAcwBcAFcAbwByAGsAcwB0AGEAdABpAG8AbgBBAGQAbQBpAG4AXABPAG4AZQBEAHIAaQB2AGUAXABEAGUAcwBrAHQAbwBwAFwAMAA0AF8AYQBwAHAAbAB5AF8AbQBhAHAAcABpAG4AZwAuAHAAcwAxACcAIAB9ACAAZgBpAG4AYQBsAGwAeQAgAHsAIABTAHQAbwBwAC0AVAByAGEAbgBzAGMAcgBpAHAAdAAgAH0ACgA= -inputFormat xml -outputFormat text
+Process ID: 48196
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\WorkstationAdmin\OneDrive\Desktop\apply_icloud_root_files.txt

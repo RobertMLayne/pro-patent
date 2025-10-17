@@ -1,0 +1,74 @@
+[2025-09-13 17:41:58] Exists, skip: C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10562\070816-01262\Prosecution\2021-08-12 Renewed_Petition.PDF
+[2025-09-13 17:41:58] Exists, skip: C:\Users\WorkstationAdmin\iCloudDrive\Documents\Employment\Former Employers\Kramer Levin Naftalis & Frankel LLP\Work\Clients\Regeneron (070816)\REGN 10562\070816-01269\Prosecution\2021-08-12 Renewed_Petition.PDF
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\M.P.E.P. Chapter 1100 — Statutory Invention Registration (SIR) [Pre-AIA]; Pre-Grant Publication and Third-Party Preissuance Submissions
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Patent Eligibility, Prior Art, Obviousness and Disclosure - Current Trends in Sections 101, 102, 103 and 112\2023\Sections
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Patent Eligibility, Prior Art, Obviousness and Disclosure - Current Trends in Sections 101, 102, 103 and 112\2023
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Patent Eligibility, Prior Art, Obviousness and Disclosure - Current Trends in Sections 101, 102, 103 and 112
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Patent Fundamentals Bootcamp - An Introduction to Patent Drafting, Prosecution, and Litigation\2022\Sections
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Patent Fundamentals Bootcamp - An Introduction to Patent Drafting, Prosecution, and Litigation\2022
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Patent Fundamentals Bootcamp - An Introduction to Patent Drafting, Prosecution, and Litigation
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\M.P.E.P. Chapter 2300 — Interferences [Pre-AIA Filings and Qualifying Post-AIA Filings Only!]
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\M.P.E.P. Chapter 800 — Restriction in Applications Filed Under U.S.C. 111; Double Patenting
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Introducing 6th Generation Intel® Core™, Intel's Best Processor Ever _ Intel Newsroom_files
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\M.P.E.P. Chapter 1000 — Matters Decided by Various Patent and Trademark Office Officials
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Examining Intel's New Speed Shift Tech on Skylake_ More Responsive Processors_files
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Amendment and Prosectuion Review — How It All Fits Together
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\M.P.E.P. Chapter 400 — Representative of Inventor and Owner
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Maddox, R., Singh, G., and Safranek, R. (2009)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test-classes\com\patentv9\usptocommonapi
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test\java\com\patentv9\usptocommonapi
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\generated-sources\jaxb\META-INF\JAXB
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Krishnamurthy, H. K., et al. (2014)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Müller, Bellaredj et al. (2019)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\generated-sources\jaxb\META-INF
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Disclosure Materials from REGN
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Burton, Schrom et al. (2014)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Edited Disclosure Materials
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Family to Family Citations
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\fsmonitor--daemon\cookies
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test-classes\com\patentv9
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Mutnury, B. et al. (2010)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Rotem, E., et al. (2004)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test\java\com\patentv9
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\generated-sources\jaxb
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.git\fsmonitor--daemon
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\FFA Measurement Paper
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Hitchcock, R. (2011)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Wallman, Jos~c7159d
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Goodman, J. (2009)
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\fsmonitor--daemon
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\generated-sources
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test-classes\com
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Gradle\Projects
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\US20080218687A1
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\PDF\2621013552
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\PDF\1761984963
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\PDF\1352570902
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\PDF\1221236346
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\PDF\0751648605
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\PDF\0750223194
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test\java\com
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\objects\pack
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test-classes
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.git\objects
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\objects\info
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.git\hooks
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\refs\heads
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test\java
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\refs\tags
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\RFPD 26-2
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.git\refs
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.git\info
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Python 3
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\objects
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.vscode
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Emails
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Gradle
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\Trash
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.libs
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\refs
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\test
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\.git
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash\PDF
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\.Trash
+[2025-09-13 17:41:58] Missing dir: C:\Users\WorkstationAdmin\iCloudDrive\Trash

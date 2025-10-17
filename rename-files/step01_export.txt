@@ -1,0 +1,30 @@
+**********************
+PowerShell transcript start
+Start time: 20250915034526
+Username: RML-XPS8960-WS\WorkstationAdmin
+RunAs User: RML-XPS8960-WS\WorkstationAdmin
+Configuration Name: 
+Machine: RML-XPS8960-WS (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.3.0_x64__8wekyb3d8bbwe\pwsh.dll -NoLogo -NoProfile -Command 
+  $r = "C:\Users\WorkstationAdmin\iCloudDrive";
+  $out = "C:\Users\WorkstationAdmin\OneDrive\Desktop\icloud_root_structure.csv";
+  Start-Transcript -Path "C:\Users\WorkstationAdmin\OneDrive\Desktop\step01_export.txt" -Force;
+  try { & "C:\Users\WorkstationAdmin\OneDrive\Desktop\01_export_icloud_root_structure.ps1" -Root $r -OutCsv $out }
+  finally { Stop-Transcript }
+Process ID: 34516
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\WorkstationAdmin\OneDrive\Desktop\step01_export.txt
+Wrote structure: C:\Users\WorkstationAdmin\OneDrive\Desktop\icloud_root_structure.csv
+**********************
+PowerShell transcript end
+End time: 20250915034527
+**********************

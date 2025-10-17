@@ -1,0 +1,1 @@
+if (Test-Path .\venv) { deactivate 2>$null; Remove-Item -Recurse -Force .\venv; Write-Host "Removed .\venv" } else { Write-Host "No venv to remove." }
