@@ -4,7 +4,34 @@ import os
 import json
 from pathlib import Path
 from typing import List
-from pfw_client import PFWClient, HTTPError
+from pfw_client import PFWClient
+from pfw_client.client import validate_document_identifier
+
+
+def save_document(app_dir: Path, identifier: str, extension: str, blob: bytes) -> Path:
+    """Create a contained document file without overwriting an existing entry."""
+    identifier = validate_document_identifier(identifier)
+    if extension not in ("", ".pdf", ".json", ".xml"):
+        raise ValueError("Unsupported document file extension")
+    filename = identifier + extension
+    # Windows treats device names specially even when a suffix is present.
+    device_name = filename.split(".", 1)[0].upper()
+    if (
+        device_name in {"CON", "PRN", "AUX", "NUL"}
+        or device_name in {f"COM{n}" for n in range(1, 10)}
+        or device_name in {f"LPT{n}" for n in range(1, 10)}
+        or filename.endswith(".")
+    ):
+        raise ValueError("Document identifier is not a portable filename")
+    parent = app_dir.resolve(strict=True)
+    destination = parent / filename
+    if destination.resolve().parent != parent:
+        raise ValueError("Document output must remain in its application directory")
+    # Exclusive creation refuses existing files, links and name collisions.
+    # The caller chooses the application directory; it must remain trusted.
+    with destination.open("xb") as handle:
+        handle.write(blob)
+    return destination
 
 def load_ids(p: str) -> List[str]:
     with open(p, "r", encoding="utf-8") as f:
@@ -66,8 +93,7 @@ def main():
                 for did in identifiers:
                     try:
                         blob, ext = cli.download_document(did)
-                        with open(app_dir / f"{did}{ext or ''}", "wb") as f:
-                            f.write(blob)
+                        save_document(app_dir, did, ext or "", blob)
                         print(f"[{appno}] saved {did}{ext or ''}")
                     except Exception as e:
                         print(f"[{appno}] download miss {did}: {e}")
