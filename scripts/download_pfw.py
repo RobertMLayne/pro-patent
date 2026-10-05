@@ -1,15 +1,22 @@
 
 import argparse
-import os
 import json
+import os
 from pathlib import Path
 from typing import List
+
 from pfw_client import PFWClient
 from pfw_client.client import validate_document_identifier
 
+_WINDOWS_DEVICE_NAMES = (
+    {"CON", "PRN", "AUX", "NUL"}
+    | {f"COM{n}" for n in range(1, 10)}
+    | {f"LPT{n}" for n in range(1, 10)}
+)
 
-def save_document(app_dir: Path, identifier: str, extension: str, blob: bytes) -> Path:
-    """Create a contained document file without overwriting an existing entry."""
+
+def _document_filename(identifier: str, extension: str) -> str:
+    """Build one portable filename from an opaque document identifier."""
     identifier = validate_document_identifier(identifier)
     if extension not in ("", ".pdf", ".json", ".xml"):
         raise ValueError("Unsupported document file extension")
@@ -17,12 +24,16 @@ def save_document(app_dir: Path, identifier: str, extension: str, blob: bytes) -
     # Windows treats device names specially even when a suffix is present.
     device_name = filename.split(".", 1)[0].upper()
     if (
-        device_name in {"CON", "PRN", "AUX", "NUL"}
-        or device_name in {f"COM{n}" for n in range(1, 10)}
-        or device_name in {f"LPT{n}" for n in range(1, 10)}
+        device_name in _WINDOWS_DEVICE_NAMES
         or filename.endswith(".")
     ):
         raise ValueError("Document identifier is not a portable filename")
+    return filename
+
+
+def save_document(app_dir: Path, identifier: str, extension: str, blob: bytes) -> Path:
+    """Create a contained document file without overwriting an existing entry."""
+    filename = _document_filename(identifier, extension)
     parent = app_dir.resolve(strict=True)
     destination = parent / filename
     if destination.resolve().parent != parent:

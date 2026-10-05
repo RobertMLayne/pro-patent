@@ -1,9 +1,9 @@
 """Offline remote-identifier output boundaries, using synthetic bytes only."""
 
 import os
-from pathlib import Path
 import tempfile
 import unittest
+from pathlib import Path
 
 from scripts.download_pfw import save_document
 

@@ -1,7 +1,7 @@
 """Offline request-boundary regressions for the retained PFW downloader."""
 
-import unittest
 import traceback
+import unittest
 from unittest.mock import call, patch
 
 from pfw_client.client import HTTPError, PFWClient
@@ -9,6 +9,7 @@ from pfw_client.client import HTTPError, PFWClient
 
 class Response:
     def __init__(self, status=200, content_type="application/pdf", location=None):
+        """Provide a response fixture that records explicit closure."""
         self.status_code = status
         self.headers = {"Content-Type": content_type}
         if location is not None:
@@ -164,7 +165,10 @@ class DocumentDownloadTests(unittest.TestCase):
         try:
             self.client.download_document("DOC1")
         except HTTPError as exc:
-            self.assertNotIn("offline-secret", "".join(traceback.format_exception(exc)))
+            self.assertNotIn(
+                "offline-secret",
+                "".join(traceback.format_exception(type(exc), exc, exc.__traceback__)),
+            )
         else:
             self.fail("Malformed redirect should have been refused")
 
