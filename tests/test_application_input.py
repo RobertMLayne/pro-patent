@@ -114,9 +114,8 @@ class ApplicationInputTests(unittest.TestCase):
             "",
             None,
         ):
-            with self.subTest(value=value):
-                with self.assertRaises(ValueError):
-                    download_pfw.validate_application_number(value)
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                download_pfw.validate_application_number(value)
 
     def test_line_endings_and_blank_lines_preserve_valid_entries(self):
         self.ids.write_bytes(b"9232158\r\n\r\n00001234\n\n")
