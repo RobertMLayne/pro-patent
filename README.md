@@ -35,6 +35,20 @@ Put application numbers in `ids.txt`, one per line, then run:
 python -m scripts.download_pfw --outdir .\out --ids .\ids.txt
 ```
 
+The CLI validates the whole IDs file before creating output or making requests.
+Each entry must be one ASCII token beginning with a letter or digit and using
+only letters, digits, dots, underscores or hyphens. Leading zeroes and the token
+text are preserved; this is a safe CLI path contract, not a numeric-format or
+USPTO validity check. Paths, drive names, Windows device names, trailing dots,
+surrounding spaces and control characters are refused. Blank lines and normal
+LF/CRLF line endings are accepted.
+
+Application directories stay directly beneath the selected output root. Existing
+linked directories and linked section JSON files are refused, including hardlink
+aliases for section files. Ordinary section JSON files can still be overwritten
+on a rerun. The selected root remains caller-controlled and must be trusted;
+these static checks do not isolate a run from concurrent directory replacement.
+
 ## Notes
 
 - Both headers `X-API-KEY` and `USPTO-API-KEY` are added.
@@ -74,4 +88,5 @@ python -B -m unittest discover -s tests -v
 These tests substitute every request and forbid production network access and
 API-key lookup. They cover supported token forms, rejected path/query/fragment
 input, redirect origin checks and bounds, response cleanup and byte/extension
-preservation.
+preservation. Application-input cases also check complete-batch validation,
+contained output, link refusal and ordinary metadata reruns.
